@@ -1,0 +1,44 @@
+@charset "UTF-8";
+#tx_cookies_showPermanent {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1040;
+    /* higher than z-index of Bootstrap header */
+}
+
+#tx_cookies_inner {
+    position: relative;
+    background: #eee;
+    padding: 10px;
+}
+
+#tx_cookies h3 {
+    margin: 0;
+}
+
+#tx_cookies p {
+    margin: 0;
+}
+
+#tx_cookies input[type="checkbox"] {
+    float: left;
+    margin-right: 3px;
+}
+
+#tx_cookies button,
+#tx_cookies input[type="submit"] {
+    border: 0;
+    background: #aaa;
+    cursor: pointer;
+    padding: 2px;
+    color: #000;
+}
+
+#tx_cookies #tx_cookies_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 99;
+}
